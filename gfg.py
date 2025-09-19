@@ -18,14 +18,14 @@ def hay_ganador(tablero, jugador):
         return True
     if tablero[2][0] == jugador and tablero[2][1] == jugador and tablero[2][2] == jugador:
         return True
-    # columnas
+    
     if tablero[0][0] == jugador and tablero[1][0] == jugador and tablero[2][0] == jugador:
         return True
     if tablero[0][1] == jugador and tablero[1][1] == jugador and tablero[2][1] == jugador:
         return True
     if tablero[0][2] == jugador and tablero[1][2] == jugador and tablero[2][2] == jugador:
         return True
-    # diagonales
+    
     if tablero[0][0] == jugador and tablero[1][1] == jugador and tablero[2][2] == jugador:
         return True
     if tablero[0][2] == jugador and tablero[1][1] == jugador and tablero[2][0] == jugador:
